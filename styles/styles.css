@@ -28,9 +28,10 @@ p {
 }
 .container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   align-items: center;
+  justify-content: center;
 }
 .images-selection-list {
   flex-wrap: wrap;
@@ -225,7 +226,9 @@ line-height: 30px;
   background-position: center center;
   max-width: 1600px; 
 }
-.mainpage { padding-top: 94px;}
+.mainpage { padding-top: 94px;
+justify-content: center;
+}
 .footer {
   background: #2f303a;
 }
@@ -285,11 +288,13 @@ line-height: 30px;
 
 .lorem-icon {
   background-color: #f5f4fa;
-  padding-right: 125px;
-  padding-left: 125px;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
 }
 .lorem-ipsum-item:not(:last-child) {
   margin-right: 30px;
