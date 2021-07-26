@@ -204,6 +204,7 @@ line-height: 30px;
   border-radius: 4px;
   background-color: var(--main-color);
   color: #ffffff;
+  border:none;
 }
 .order-service-button:focus {color:white;}
 .solutions .container {
@@ -222,10 +223,9 @@ line-height: 30px;
   margin: auto;
   padding: 0;
   background-position: center center;
-  width: 1600px;
-  height: 600px;
+  max-width: 1600px; 
 }
-
+.mainpage { padding-top: 94px;}
 .footer {
   background: #2f303a;
 }
@@ -244,6 +244,9 @@ line-height: 30px;
 }
 .studio-logo-bottom {
   color: #ffffff;
+}
+.active {
+  color:var(--main-color)
 }
 /* === END COMPONENTS ===*/
 
